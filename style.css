@@ -65,10 +65,24 @@ body{
     background-color: forestgreen !important;
 }
 
+.navbar.fixed-left .navbar-nav .nav-item .dropdown-toggle{
+    padding-right: 20px;
+}
+
 .navbar-dark .navbar-nav .nav-link{
     color: #414042 !important;
     padding: 13px;
     font-size: 14px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    background-color: lightgrey;
+}
+
+.nv-link{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .navbar-dark .navbar-nav .nav-link i{
