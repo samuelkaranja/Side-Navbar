@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar.fixed-left {
+    top: 20px;
+    bottom: 0;
+    width: 300px;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}
+
+.navbar.fixed-left .navbar-collapse {
+    flex-grow: 0;
+    flex-direction: column;
+    width: 100%
+}
+
+.navbar.fixed-left .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%
+}
+
+.navbar.fixed-left .navbar-collapse .navbar-nav .nav-item {
+    width: 100%
+}
+
+.navbar.fixed-left .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+    top: 0;
+}
+
+.navbar.fixed-left .navbar-nav .nav-item .dropdown-toggle:after {
+    border-top: .3em solid transparent;
+    border-left: .3em solid;
+    border-bottom: .3em solid transparent;
+    border-right: none;
+    vertical-align: baseline;
+}
+
+.navbar.fixed-left .navbar-nav .nav-item .dropdown-menu {
+    left: 100%
+}
+
+.navbar{
+    text-align: center;
+    box-shadow: none !important;
+}
+
+.navbar-dark .navbar-brand{
+    color: #434343;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-dark .navbar-brand:hover{
+    color: #434343;
+    opacity: none;
+}
+
+.navbar-toggler{
+    background-color: forestgreen !important;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #414042 !important;
+    padding: 13px;
+    font-size: 14px;
+}
+
+.navbar-dark .navbar-nav .nav-link i{
+    padding: 0;
+    margin: 0;
+}
+
+.bd-h{
+    display: none;
+}
+
+.bd{
+    display: none;
+}
+
+@media only screen and (max-width: 425px) {
+    .navbar{
+        padding: 50px 0 0 0;
+    }
+
+    .navbar.fixed-left{
+        top: 0 !important;
+        width: auto;
+    }
+
+    .navbar-toggler{
+        float: right;
+        font-size: 15px;
+        padding: 5px 10px;
+        background-color: transparent;
+    }
+
+    .navbar-dark .navbar-nav .nav-link{
+        border-bottom: 1px solid lightgrey;
+        padding: 25px; 
+    }
+
+    .navbar.fixed-left .navbar-collapse .navbar-nav .nav-item .dropdown-menu{
+        text-align: center;
+    }
+
+    .dropdown-item{
+        padding: 15px;
+        border-bottom: 1px solid lightgrey;
+    }
+
+    .nav-li {
+        display: none;
+    }
+
+    .bd{
+        width: 100%;
+        padding: 15px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        border-top: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
+    }
+
+    .bd-h{
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 2px;
+        padding-left: 40px;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 425px) {
+    
+}
