@@ -110,8 +110,12 @@ body{
         text-align: center;
     }
 
+    .dropdown-menu{
+        box-shadow: none;
+    }
+
     .dropdown-item{
-        padding: 15px;
+        padding: 20px;
         border-bottom: 1px solid lightgrey;
     }
 
